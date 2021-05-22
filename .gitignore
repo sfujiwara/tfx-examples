@@ -1,0 +1,10 @@
+# PyCharm.
+.idea
+
+# Python
+.venv
+venv
+
+# TFX output directories.
+pipelines
+serving_model
