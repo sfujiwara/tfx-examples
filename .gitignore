@@ -1,10 +1,14 @@
+.DS_Store
+
 # PyCharm.
 .idea
 
 # Python
+__pycache__
 .venv
 venv
 
 # TFX output directories.
-pipelines
 serving_model
+metadata
+outputs
