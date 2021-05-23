@@ -11,7 +11,7 @@ from google.cloud import bigquery
 def DataGen(
     data: tfx.dsl.components.OutputArtifact[Dataset],
     query: tfx.dsl.components.Parameter[str] = "",
-):
+) -> tfx.dsl.components.OutputDict(hoge=int):
 
     # data.set_string_custom_property()
     client = bigquery.Client()
